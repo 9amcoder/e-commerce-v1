@@ -3,6 +3,7 @@ import Image from "next/image";
 import Product from "../components/product";
 import styles from "../styles/Home.module.css";
 import Header, { StoreName } from "../components/header";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -21,16 +22,15 @@ export default function Home() {
       </main> */}
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        {/* <div className={styles.grid}>
+          <h5>Created by Steve with ❤️ for 4DS3-Final Project</h5>
+          <br />
+          <h5>McMaster University</h5>
+        </div> */}
+        <Footer
+          text="Created by Steve with ❤️ for 4DS3-Final Project"
+          secondText="© 2022 McMaster University"
+        />
       </footer>
     </div>
   );
