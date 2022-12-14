@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app),
 and using Mock API from  [Fake store API](https://fakestoreapi.com/) 
 ## Screenshot 
+URL: https://shop-4ds3.netlify.app/
 <img width="1266" alt="Screenshot 2022-12-14 at 1 52 31 PM" src="https://user-images.githubusercontent.com/59545545/207689105-bb6f0dac-8880-420d-ab6f-bfb523b337a9.png">
 
 ## Main feature 
