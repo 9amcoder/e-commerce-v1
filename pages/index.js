@@ -20,18 +20,10 @@ export default function Home() {
       <Product />
       {/* </div>
       </main> */}
-
-      <footer className={styles.footer}>
-        {/* <div className={styles.grid}>
-          <h5>Created by Steve with ❤️ for 4DS3-Final Project</h5>
-          <br />
-          <h5>McMaster University</h5>
-        </div> */}
         <Footer
           text="Created by Steve with ❤️ for 4DS3-Final Project"
           secondText="© 2022 McMaster University"
         />
-      </footer>
     </div>
   );
 }
